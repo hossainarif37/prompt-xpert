@@ -1,3 +1,4 @@
+import Nav from '@components/Nav';
 import '@styles/global.css';
 
 export const metadata = {
@@ -12,7 +13,8 @@ const RootLayout = ({children}) => {
                         <div className="gradient"></div>
                     </div>
 
-                    <main className='app'>
+                <main className='app'>
+                    <Nav/>
                         {children}
                     </main>
 
